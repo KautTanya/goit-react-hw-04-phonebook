@@ -19,8 +19,7 @@ export const ContactForm = ({addContacts}) => {
     const handleSubmit = (values, { resetForm }) => {
       addContacts(values);
         values.id = contactId();
-        // console.log(values);
-        resetForm()
+               resetForm()
     }
     return(
         <Formik
